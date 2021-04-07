@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/day_splash"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/FirstLine"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@+id/SecondLine"
+            android:layout_marginRight="8dp"
+            android:background="@color/white" />
+        <View
+            android:id="@+id/SecondLine"
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:layout_toLeftOf="@+id/ThirdLine"
+            android:layout_marginRight="8dp"
+            android:background="@color/yellow" />
+        <View
+            android:id="@+id/ThirdLine"
+            android:layout_width="20dp"
+            android:layout_height="200dp"
+            android:layout_toLeftOf="@+id/ForthLine"
+            android:layout_marginRight="8dp"
+            android:background="@color/red" />
+        <View
+            android:id="@+id/ForthLine"
+            android:layout_width="20dp"
+            android:layout_height="160dp"
+            android:layout_toLeftOf="@+id/FifthLine"
+            android:layout_marginRight="8dp"
+            android:background="@color/green" />
+        <View
+            android:id="@+id/FifthLine"
+            android:layout_width="20dp"
+            android:layout_height="180dp"
+            android:layout_toLeftOf="@+id/SixthLine"
+            android:layout_marginRight="8dp"
+            android:background="@color/yellow" />
+        <View
+            android:id="@+id/SixthLine"
+            android:layout_width="20dp"
+            android:layout_height="220dp"
+            android:layout_toLeftOf="@+id/SeventhLine"
+            android:layout_marginRight="8dp"
+            android:background="@color/white" />
+        <View
+            android:id="@+id/SeventhLine"
+            android:layout_width="20dp"
+            android:layout_height="190dp"
+            android:layout_toLeftOf="@+id/EightthLine"
+            android:layout_marginRight="8dp"
+            android:background="@color/red" />
+        <View
+            android:id="@+id/EightthLine"
+            android:layout_width="20dp"
+            android:layout_height="130dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:background="@color/green" />
+
+    </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/sun"
+            android:layout_gravity="center"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/kids_sun" />
+
+</LinearLayout>

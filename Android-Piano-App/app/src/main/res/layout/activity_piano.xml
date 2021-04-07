@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    tools:context=".PianoActivity">
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/shadow_layer"
+        android:elevation="10dp">
+
+        <ImageView
+            android:id="@+id/piano_home"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/home_piano" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/carter_one"
+            android:text="Let's Play"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textColor="#F81504"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/w1"
+                    style="@style/theme_piano" />
+
+                <Button
+                    android:id="@+id/w2"
+                    style="@style/theme_piano" />
+
+                <Button
+                    android:id="@+id/w3"
+                    style="@style/theme_piano" />
+
+                <Button
+                    android:id="@+id/w4"
+                    style="@style/theme_piano" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/w5"
+                    style="@style/theme_piano" />
+
+                <Button
+                    android:id="@+id/w6"
+                    style="@style/theme_piano" />
+
+                <Button
+                    android:id="@+id/w7"
+                    style="@style/theme_piano" />
+
+                <Button
+                    android:id="@+id/w8"
+                    style="@style/theme_piano" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/w9"
+                    style="@style/theme_piano" />
+
+                <Button
+                    android:id="@+id/w10"
+                    style="@style/theme_piano" />
+
+                <Button
+                    android:id="@+id/w11"
+                    style="@style/theme_piano" />
+
+                <Button
+                    android:id="@+id/w12"
+                    style="@style/theme_piano"
+                    android:layout_marginRight="4dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="0.5">
+
+                <Button
+                    android:id="@+id/b1"
+                    style="@style/theme_pianoBlack" />
+
+                <Button
+                    android:id="@+id/b2"
+                    style="@style/theme_pianoBlack" />
+
+                <Button
+                    android:id="@+id/b3"
+                    style="@style/theme_pianoBlack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="0.5">
+
+                <Button
+                    android:id="@+id/b4"
+                    style="@style/theme_pianoBlack" />
+
+                <Button
+                    android:id="@+id/b5"
+                    style="@style/theme_pianoBlack" />
+
+                <Button
+                    android:id="@+id/b6"
+                    style="@style/theme_pianoBlack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="0.5">
+
+                <Button
+                    android:id="@+id/b7"
+                    style="@style/theme_pianoBlack" />
+
+                <Button
+                    android:id="@+id/b8"
+                    style="@style/theme_pianoBlack" />
+
+                <Button
+                    android:id="@+id/b9"
+                    style="@style/theme_pianoBlack" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
